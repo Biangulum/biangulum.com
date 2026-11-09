@@ -45,19 +45,15 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="site-header">
-  <div class="wrap">
+<div class="layout">
+
+<aside class="side">
+  <div class="side-inner">
     <a class="brand" href="./">
       <img src="favicon.svg" alt="" width="32" height="32">
       <span>Biangulum</span>
     </a>
-  </div>
-</header>
-
-<main id="main">
-
-  <section class="intro" aria-labelledby="name">
-    <div class="wrap">
+    <div class="side-intro">
       <h1 id="name">Dražen Hudoletnjak</h1>
       <p class="lead">Since 2006 I have been building and maintaining native Windows software in C/C++ and C#, software that has to keep running. Much of my work is finding out why it crashes, leaks or slows down, and fixing it so it stays fixed.</p>
       <p class="lead">I have been developing Visual Assist for Whole Tomato Software since 2018.</p>
@@ -68,7 +64,17 @@
         <!-- Hidden for now: <a href="https://github.com/Biangulum">GitHub</a> -->
       </div>
     </div>
-  </section>
+    <nav class="toc" aria-label="Sections">
+      <a href="#work">What I do</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</aside>
+
+<div class="content">
+<main id="main">
+
 
   <section class="block" aria-labelledby="work">
     <div class="wrap">
@@ -181,5 +187,8 @@
     <p class="footer-links"><a href="privacy/">Privacy</a></p>
   </div>
 </footer>
+</div>
+
+</div>
 </body>
 </html>
